@@ -1,0 +1,54 @@
+body{
+    background-color: #ffffee;
+    text-align: left;
+    align-items: start;
+    background-image: url(Home.png);
+}
+
+div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+input{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #14290f; 
+    border-radius: 4px;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    align-items: end;
+    border: 2px solid rgb(247, 243, 47);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+button#voltar{
+    width: 50px;
+}
+button:hover{
+    border: 2px solid rgb(95, 145, 30);
+    background-color: #ffffdd;
+}
+
+div#login{
+    display: none;
+}
+div#cadastroempresa{ 
+    display: none;
+}
+div#cadastrofreela{
+    display: none;
+}
+div#imagem{
+    display: flex;
+    background-image: url(Home.png);
+}
+img{
+    max-width: 50px;
+    
+}
