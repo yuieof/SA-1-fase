@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meufreela#</title>
+</head>
+<body>
+    <button onclick="pagLogin()">Log In</button> <button onclick="pagCadastroF()">Cadastro (Freelancer)</button> <button onclick="pagCadastroE()">Cadastro (Empresa)</button> <button onclick="voltar()" id="voltar">Voltar</button>
+    <div id="login">
+        E-mail<input type="text" placeholder="Digite seu E-mail." id="email"><br>
+        Senha<input type="password" placeholder="Digite sua senha." id="password"><br>
+        <button onclick="logar()">Log In</button>
+    </div>
+    <div id="cadastrofreela">
+        E-mail<input type="text" placeholder="Digite seu E-mail." id="newemail"><br>
+        Senha<input type="password" placeholder="Digite sua senha." id="newpassword"><br>
+        Repita sua senha<input type="password" placeholder="Confirme sua senha." id="reppassword"><br>
+        Telefone<input type="text" id="telefone" placeholder="Digite seu telefone de contato."><br>
+        Data de Nascimento<input type="text" id="nascimento" placeholder="DD/MM/YYYY"><br>
+        CPF<input type="text" id="cpf" placeholder="Digite seu CPF."><br>
+        Nome<input type="text" id="nomefreela" placeholder="Digite seu nome."><br>
+        Cidade<input type="text" id="cidade" placeholder="Digite sua cidade de residência."><br>
+        Cep<input type="text" id="cep" placeholder="Digite seu CEP."><br>
+        <button onclick="cadastrarFreela()">Cadastrar</button>
+    </div>
+    <div id="cadastroempresa">
+        E-mail<input type="text" placeholder="Digite seu E-mail." id="newemailempresa"><br>
+        Senha<input type="password" placeholder="Digite sua senha." id="newpasswordempresa"><br>
+        Repita sua senha<input type="password" placeholder="Confirme sua senha." id="reppasswordempresa"><br>
+        Telefone<input type="text" id="telefoneempresa" placeholder="Digite o telefone de contato da empresa."><br>
+        CNPJ/CPF<input type="text" id="cpfempresa" placeholder="Digite o CNPJ da empresa ou o CPF do dono."><br>
+        Nome da Empresa<input type="text" id="nomeempresa" placeholder="Digite o nome de sua empresa."><br>
+        Endereço<input type="text" id="endereco" placeholder="Digite o endereço da empresa. "><br>
+        Cep<input type="text" id="cep" placeholder="Digite seu cep."><br>
+        Cidade<input type="text" id="cidadeempresa" placeholder="Digite a cidade de residência da empresa."><br>
+        
+        <button onclick="cadastrarEmpresa()">Cadastrar</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
